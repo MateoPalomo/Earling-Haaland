@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+.Perfil {
+
+    border-radius: 20%;
+}
+
+#Bienvenido {
+    background: linear-gradient(white, rgb(133, 133, 240));
+    width: 100%;
+    height: 100vh;
+    display: table;
+}
+
+.contenido {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.menu {font-family: 'Fuzzy Bubbles', cursive;
+    list-style: none;
+    cursor: pointer;
+    position: fixed; right: 10px; z-index: 10;
+
+}
+
+.menu li {
+    float: left;
+    padding: 15px ;font-size: 20px
+}
+a{
+    text-decoration: none;
+}
+iframe{
+    width:60%;
+}
